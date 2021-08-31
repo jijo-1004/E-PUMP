@@ -1,0 +1,27 @@
+
+	Important (for sir)
+
+2. Map
+7. sorting sql querry by 
+
+	Validation
+
+                                                    Pending Works
+
+	Employee Home page
+
+1.Show MAP (@ slide 4)-----------(additional work)
+https://www.youtube.com/watch?v=3yolzQ6JnAc
+
+	Manager Home Page
+
+1. Adding Manager Account
+3. Change cost of fuel
+4. Order tables by date-----------(important)
+
+	User Home Page
+	
+1. set as -- cannot go back when at payment stage... after ordering the fuel...-----------(important)
+2. Map 
+3. Notification Bar-----------(important)
+3. Transaction details( @slide4 if map @1 else @slide3 ) -----------(additional work)

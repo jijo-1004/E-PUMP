@@ -1,0 +1,84 @@
+
+.wrapper {
+  display: table;
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  display: table-cell;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+}
+.fostrap-logo {
+  width: 100px;
+  margin-bottom:15px
+}
+h1.heading {
+  color: #666;
+  font-size: 1.15em;
+  font-weight: 900;
+  margin: 0 0 0.5em;
+}
+@media (min-width: 450px) {
+  h1.heading {
+    font-size: 1.55em;
+  }
+}
+@media (min-width: 760px) {
+  h1.heading {
+    font-size: 3.05em;
+  }
+}
+@media (min-width: 900px) {
+  h1.heading {
+    font-size: 3.25em;
+    margin: 0 0 0.3em;
+  }
+}
+
+    .costum-table-dark .table th {
+    padding: 15px 10px !important;
+    background-color: #212121;
+    color: #EC7149;
+    border-top: 0 !important;
+    border-bottom: 2px solid #505050 !important;
+    }
+    .costum-table-dark .table tr:hover {
+    background-color: #3A3A3A;
+    }
+    .costum-table-dark .table {
+    background: #434242;
+    color: #FFF;
+    }
+    .costum-table-dark {
+    border: 0;
+    }
+    .costum-table-dark .table>
+    tbody>
+    tr>
+    td,
+    .costum-table-dark .table>
+    tbody>
+    tr>
+    th,
+    .costum-table-dark .table>
+    tfoot>
+    tr>
+    td,
+    .costum-table-dark .table>
+    tfoot>
+    tr>
+    th,
+    .costum-table-dark .table>
+    thead>
+    tr>
+    td,
+    .costum-table-dark .table>
+    thead>
+    tr>
+    th {
+    border-top: 1px solid #505050;
+    text-align: left;
+    }

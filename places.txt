@@ -1,0 +1,4 @@
+polyathodu    lat:8.88016         long :76.60649
+umayanallor    lat:8.86569              long:76.64891
+mevaram        lat:8.86933         long:76.64469
+ayathil         lat:8.89719              long:76.63161

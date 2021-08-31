@@ -1,0 +1,57 @@
+-- phpMyAdmin SQL Dump
+-- version 3.2.0.1
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Feb 01, 2020 at 10:43 AM
+-- Server version: 5.1.36
+-- PHP Version: 5.3.0
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+--
+-- Database: `pump`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `login_pump`
+--
+
+CREATE TABLE IF NOT EXISTS `login_pump` (
+  `userid` text NOT NULL,
+  `password` text NOT NULL,
+  `status` int(11) NOT NULL,
+  `type` text NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `login_pump`
+--
+
+INSERT INTO `login_pump` (`userid`, `password`, `status`, `type`) VALUES
+('37', 'anaghaaaa', 1, 'user');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `user_reg`
+--
+
+CREATE TABLE IF NOT EXISTS `user_reg` (
+  `usname` text NOT NULL,
+  `usid` text NOT NULL,
+  `pass` text NOT NULL,
+  `repass` text NOT NULL,
+  `phno` int(11) NOT NULL,
+  `status` int(11) NOT NULL DEFAULT '1',
+  `type` text NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `user_reg`
+--
+
+INSERT INTO `user_reg` (`usname`, `usid`, `pass`, `repass`, `phno`, `status`, `type`) VALUES
+('rohan', '37', 'anaghaaaa', 'anaghaaaa', 2147483647, 1, 'user');
